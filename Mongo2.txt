@@ -1,0 +1,6 @@
+db.list2.find ( {cId: 2, notaFinal: {$gt 4} }).count();
+
+db.list2.find ( {notaFinal: {$gt 4}} ). count();
+
+ejercicio2
+db.list2.count ( { notaFinal : { $gt: 4} }, {cId: 1} );

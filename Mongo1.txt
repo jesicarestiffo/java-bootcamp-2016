@@ -1,0 +1,24 @@
+db.student.insert({name: "Rosa", last_name: "Moran", sId: "105", birth: "1996/08/20"});
+db.student.insert({name: "Carlos", last_name: "Romano", sId: "203", birth: "1996/05/18"});
+db.student.insert({name: "Martin", last_name: "Mitre", sId: "207", birth: "1996/11/15"});
+db.student.insert({name: "Milagros", last_name: "Gonzalez", sId: "242", birth: "1996/09/26"});
+db.student.insert({name: "Marcelo", last_name: "Salcro", sId: "310", birth: "1996/07/10"});
+db.student.insert({name: "Augusto", last_name: "Bero", sId: "312", birth: "1995/02/16"});
+db.student.insert({name: "Rocio", last_name: "Martin", sId: "325", birth: "1996/08/18"});
+db.student.insert({name: "Karina", last_name: "Pellegi", sId: "400", birth: "1995/06/08"});
+db.student.insert({name: "Micaela", last_name: "Pellegi", sId: "401", birth: "1995/06/08"});
+db.student.insert({name: "Natalia", last_name: "Martinez", sId: "500", birth: "1996/05/29"});
+
+db.teacher.insert ({name: "Mariano",last_name: "Cazas", tId: "1000", birth: "1980/05/28"});
+db.teacher.insert ({name: "Juan",last_name: "Perez", tId: "1001", birth: "1974/11/25"});
+db.teacher.insert ({name: "Pedro",last_name: "Sarnel", tId: "1002", birth: "1987/11/08"});
+
+db.course.insert ({name: "Ingles", tId: "1000", hour: "00:14:00", cId: "1", days: "Monday"});
+db.course.insert ({name: "Dibujo", tId: "1001", hour: "00:17:00", cId: "2", days: "Tuesday"});
+db.course.insert ({name: "Ciencias", tId: "1002", hour: "00:15:30", cId: "3", days: "Wednesday"});
+
+db.list2.insert ({listId: "100", sId:"500", cId: "2", tId: "1000", nota1: "6", notaFinal: "8"});
+db.list2.insert ({listId: "120", sId:"207", cId: "1", tId: "1001", nota1: "7", notaFinal: "7"});
+db.list2.insert ({listId: "130", sId:"203", cId: "1", tId: "1001", nota1: "4", notaFinal: "6"});
+db.list2.insert ({listId: "140", sId:"400", cId: "2", tId: "1001", nota1: "2", notaFinal: "10"});
+db.list2.insert ({listId: "150", sId:"400", cId: "3", tId: "1002", nota1: "10", notaFinal: "5"});

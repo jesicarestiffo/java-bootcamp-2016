@@ -1,0 +1,3 @@
+ejercicio3
+
+db.course.find({tId: 1001}).sort({name: 1});
