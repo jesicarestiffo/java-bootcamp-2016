@@ -1,6 +1,42 @@
 insert into student (name, lastName, sId, birth)
 values
-('ROsa','Moran', '105','1996/08/20');
+('Rosa','Moran', '105','1996/08/20');
+
+insert into student (name, lastName, sId, birth)
+values
+('Carlos', 'Romano', '203', '1996-05-18');
+
+insert into student (name, lastName, sId, birth)
+values
+('Martin', 'Mitre', ' 207', '1996-11-15');
+
+insert into student (name, lastName, sId, birth)
+values
+('Milagros', 'Gonzalez', '242', '1996-09-26');
+
+insert into student (name, lastName, sId, birth)
+values
+('Marcelo', 'Salcro', '310', '1996-07-10');
+
+insert into student (name, lastName, sId, birth)
+values
+('Augusto', 'Bero', '312', '1995-02-16');
+
+insert into student (name, lastName, sId, birth)
+values
+('Rocio', 'Martin', '325', '1996-08-18');
+
+insert into student (name, lastName, sId, birth)
+values
+('Karina', 'Pellegi', '400', '1996-06-08');
+
+insert into student (name, lastName, sId, birth)
+values
+('Micaela', 'Pellegi', '401','1996-06-08');
+
+insert into student (name, lastName, sId, birth)
+values
+('Natalia', 'Martinez', '500', '1996-05-29');
 
 
 insert into course (name, tId, hour, cId, days)
@@ -33,27 +69,27 @@ values
 ('Pedro', 'Sarnel', '1002', '1987-11-08');
 
 
-insert into list2 (sId,tId,cId,nota1,listId, notaFinal)
+insert into school (sId,cId,schoolId, notaFinal)
 values
-('203','1000','02','8','110','4');
+('203','02','110','4');
 
 
-insert into list2 (sId,tId,cId,nota1,listId, notaFinal)
+insert into school (sId,cId,schoolId, notaFinal)
 values
-('207','1001','01','7','120', '7');
+('207','01','120', '7');
 
 
-insert into list2 (sId,tId,cId,nota1,listId, notaFinal)
+insert into school (sId,cId,schoolId, notaFinal)
 values
-('203','1001','01','4','130','6');
+('203','01','130','6');
 
 
-insert into list2 (sId,tId,cId,nota1,listId, notaFinal)
+insert into school (sId,cId,schoolId, notaFinal)
 values
-('400','1001','01','2','140','10');
+('400','01','140','10');
 
 
-insert into list2 (sId,tId,cId,nota1,listId, notaFinal)
+insert into school (sId,cId,schoolId, notaFinal)
 values
-('400','1002','03','10','150', '5');
+('400','03','150', '5');
 
