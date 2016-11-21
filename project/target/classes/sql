@@ -1,0 +1,51 @@
+create database shoppingCart;
+use shoppingCart;
+
+create table prod_user (
+idUser int (10) not null, 
+idProd int (10) not null,
+firstName varchar(20) NOT NULL,
+lastName varchar(20) NOT NULL, 
+primary Key (idUser, idProd));
+
+
+create table product (
+idProduct int (15) not null auto_increment,
+name varchar (10) not null,
+price int (5) not null,
+category varchar (20),
+primary key (idProduct));
+
+
+
+create table user(
+idUser int (15) not null auto_increment,
+userName varchar (15) not null,
+password varchar (15) not null,
+primary Key (idUser));
+
+insert into user (idUser, userName, password)
+values
+('1', 'Jesica','jesica'),
+('2', 'Milagros','milagros'),
+('3', 'Maria','maria'),
+('4', 'Rocio','rocio'),
+('5', 'Belen','belen'),
+('6', 'Karina','karina'),
+('7', 'Micaela','micaela'),
+('8', 'Natalia','natalia'),
+('9', 'Elisabet','elisabet'),
+('10', 'Ariadna','ariadna');
+
+insert into product (idProduct, name, price, category)
+values
+('1', 'screen', '3000', 'technology'),
+('2', 'mouse', '500', 'technology'),
+('3', 'chair', '1950', 'office'),
+('4', 'door', '3600', 'office'),
+('5', 'coffe', '100', 'office'),
+('6', 'apple', '50', 'fruit'),
+('7', 'oven', '4500', 'kitchen'),
+('8', 'roses', '240', 'flower'),
+('9', 'blackboard', '2641', 'school'),
+('10', 'pen/pencil', '20', 'office');
