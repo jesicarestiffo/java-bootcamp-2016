@@ -1,0 +1,7 @@
+select (teacher.name)tName, (teacher.lastName)teacher, (course.name)course, (course.hour)time, (course.days)days
+from course
+inner join teacher on teacher.tId = course.tId
+order by days;
+
+3 rows in set (0.03 sec)
+

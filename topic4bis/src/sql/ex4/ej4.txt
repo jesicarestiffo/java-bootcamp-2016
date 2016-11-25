@@ -1,0 +1,7 @@
+SELECT count(*)/(SELECT count(*) FROM school WHERE cId=1)*100 
+'Passed'
+FROM school where cId=1 and notaFinal>=6; 
+
+SELECT count(*)/(SELECT count(*) FROM school WHERE cId=1)*100 
+'Not passed'
+FROM school where cId=1 and notaFinal<6;
