@@ -1,0 +1,4 @@
+Exercise2
+
+
+db.list2.count ( { notaFinal : { $gt: 4} }, {cId: 1} );
